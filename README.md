@@ -198,6 +198,10 @@ If `dropdownPlacement` is set to `"top"` but there is not enough space above the
 
 ---
 
+## **Size Props and Priority Behavior
+The size prop adjusts the overall size of the component (e.g., xs, sm, md, lg, xl, 2xl).
+Priority Note: If specific size-related props like height or width are also used, priority will be given to these props over the size prop. For example, if size="lg" and height="50px" are both set, the height will be 50px, overriding the default height for the lg size.
+
 ## **Common Types**
 
 ### **Option**
