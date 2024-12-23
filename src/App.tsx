@@ -158,6 +158,7 @@ const App = () => {
             onChange={(selected) => setSingleSelectValue5(selected)}
             colorScheme="purple"
             getLabel={getLabel}
+            inputGroupProps={{layout: "button-input"}}
           />
           <Separator my={6} />
 
